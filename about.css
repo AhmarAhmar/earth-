@@ -1,0 +1,315 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+
+.navbar-toggler{
+	border-radius: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 12px 12px !important;
+	background-color: #769A5A !important;
+	}
+
+
+/*------------------------------CONTACT PAGE START---------------------------------------*/
+
+.about-page {
+	height:100%;
+	width:100%;
+	background-image: url("images/1st.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+.about-page h1{
+font-size: 70px;
+letter-spacing: 9px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top:140px;
+color: #2C541D;
+}
+
+/*------------------------------SECTION 1 START---------------------------------------*/
+
+.section-2{
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 120px;
+}
+
+.section-2 .card-img{
+    width: 110%;
+    height: 70%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  
+}
+
+
+.section-2 .card-body{
+        width: 100%;
+      padding-left:150px; 
+}
+
+.card-body h2{
+    padding-bottom:30px;
+    font-weight: bold; 
+}
+
+.card-body .btn{
+    border: none;
+    border-radius: 0;
+    background: #769A5A;
+    cursor: pointer;
+    color:white;
+}
+
+.card-body .btn:hover{
+    background: #2C541D;
+}
+
+
+
+
+
+/*------------------------------SECTION 2 END--------------------------------------*/
+
+/*------------------------------LAST PAGE START---------------------------------------*/
+.last-div{
+	height: 80%;
+	 width:100%;
+	 position:relative;
+	 display: flex;
+	 background-image: url("images/talk.jpg");
+	 background-size:cover;	 	  	 
+}
+
+.last-div{
+	  display:flex;
+	  align-items: center;
+	  justify-content: center;
+}
+
+.last-div .txt{
+	width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.last-div h1{
+	color: #54595F;
+	letter-spacing: 3px;
+	font-size:45px;
+}
+.last-div p{
+padding-top:10px;
+font-size:18px; 
+}
+.last-div p span{
+	padding-left: 25px;
+}
+.last-div .btn{
+	
+      background: #769A5A;
+	cursor: pointer;
+	margin-top: 20px;
+	border-radius: 0;
+	border: none;	
+}
+/*------------------------------LAST PAGE END---------------------------------------*/
+
+/*------------------------------END PAGE START---------------------------------------*/
+.end{
+	display:flex;
+	    align-items:center;
+		flex-wrap: wrap;
+	    justify-content:space-between;
+        padding: 15px 10px 20px 15px; 	  	 
+}
+
+
+.end li{
+	list-style-type: none;
+	display: inline;
+	margin: 5px;
+	padding: 6px;
+}
+
+
+.end .links{
+	    display:flex;
+		gap: 10px;
+		
+}	
+
+.end a{
+		color: black;
+	text-decoration: none;
+}
+
+.end h2{
+	position: absolute;
+	margin-left: 47%;
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+
+.end p{
+	margin-right: 30px;
+}
+
+/*------------------------------END PAGE END---------------------------------------*/
+
+/*-------------------------------RESPONSIVE DESIGN START START---------------------------------------*/
+
+
+/*------------------------------ABOUT PAGE START---------------------------------------*/
+
+@media only screen and (max-width: 1050px){
+.about-page {
+	height:80%;
+}	
+.about-page h1{
+	font-size: 60px;
+	letter-spacing: 9px;
+	padding-top:120px;
+	}
+}
+@media only screen and (max-width: 620px){
+	.about-page h1{
+		font-size: 50px;
+		letter-spacing: 9px;
+		padding-top:100px;
+		}
+	}
+@media only screen and (max-width: 520px){
+	.about-page {
+		height:60%;
+	}	
+	.about-page h1{
+		font-size: 40px;
+		letter-spacing: 2px;
+		padding-top:80px;
+		}
+	}			
+		
+/*-------------------------------ABOUT PAGE END---------------------------------------*/
+
+/*------------------------------SECTION-2 PAGE START---------------------------------------*/
+
+@media only screen and (max-width: 1050px){
+.section-2{
+		padding:0 40px;
+}
+.section-2 .card-body{
+          padding-left:40px; 
+}
+
+.section-2 .card-img{
+              width: 100%; 
+}
+}
+
+@media only screen and (max-width: 767px){
+.section-2{
+		height: auto;
+		display: block;
+		padding: 70px 20px;
+
+}
+.section-2 .card-body{
+			padding-top: 30px;
+			padding-left: 10px;
+}
+}
+
+/*------------------------------SECTION-2 PAGE END---------------------------------------*/
+
+/*------------------------------LAST DIV PAGE START---------------------------------------*/
+
+@media only screen and (max-width: 600px){
+	.last-div .txt{
+		padding: 0 30px;
+	}
+	.last-div p span{
+		padding-left: 1px;
+	}	
+	}
+	@media only screen and (max-width: 470px){
+		.last-div .txt{
+			padding: 0 40px;
+		}
+	}	
+/*------------------------------LAST DIV PAGE END---------------------------------------*/
+
+
+@media only screen and (max-width: 800px){
+	.end{
+	display:block; 	  	 
+}
+.end .links {
+    display: flex;
+    gap: 10px;
+	padding-left: 31%;
+}
+
+.end h2{
+	position: absolute;
+
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+
+.end p{
+	margin-right: 0px;
+	padding-left: 40%;
+	padding-top: 40px;
+}
+}
+@media only screen and (max-width: 550px){
+	.end .links {
+		padding-left: 20%;
+	}
+	
+	.end h2{
+		font-size: 25px;
+	}
+	
+	.end p{
+		margin-right: 0px;
+		padding-left: 30%;
+	}
+	}
+
+	@media only screen and (max-width: 470px){
+		.end .links {
+			padding-left: 10%;
+		}
+		
+		.end h2{
+			font-size: 25px;
+			margin-left: 35%;
+		}
+		
+		.end p{
+			margin-right: 0px;
+			padding-top: 50px;
+			padding-left: 20%;
+		}
+        }
+ @media only screen and (max-width: 400px){
+.end .links {
+    padding-left: 5% !important;
+}
+ }
